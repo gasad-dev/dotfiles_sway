@@ -1,0 +1,1 @@
+put this fonts in ~/.local/share/fonts and do the fc-cache -fv

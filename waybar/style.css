@@ -1,0 +1,45 @@
+* {
+  font-family: Scientifica;
+  font-size: 14pt;
+  color: white;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  text-shadow: none;
+  transition-duration: 0s;
+}
+
+window#waybar {
+  background: #141216;
+  opacity: 9999;
+}
+
+#window,
+#memory,
+#disk,
+#pulseaudio,
+#custom-weather,
+#cpu {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#custom-weather {
+  padding-left: 1rem;
+  font-weight: normal;
+}
+
+#workspaces {
+  background: #141216;
+  color: white;
+  font-weight: bold;
+  border-radius: 0 1rem 1rem 0;
+}
+#workspaces button {
+  background: transparent;
+}
+
+#workspaces button.focused {
+  background: #1c1a1e;
+  border-radius: 1rem;
+}
